@@ -1,0 +1,91 @@
+/*Ejercicio A*/
+#box-1 {
+	position: static; /*Propiedad por default*/
+	width: 200px; /*Ancho*/
+	height: 200px;/*Alto*/
+	background: #ee3e64; /*Color*/
+}
+
+#box-2 {
+	position: static; /*Propiedad por default*/
+	width: 200px;/*Ancho*/
+	height: 200px;/*Alto*/
+	background: #44accf;/*Color*/
+}
+
+#box-3 {
+	position: static; /*Propiedad por default*/
+	width: 200px;/*Ancho*/
+	height: 200px;/*Alto*/
+	background: #b7d84b;/*Color*/
+}
+
+/*Ejercicio B*/
+
+#box-4 {
+	position: relative; /*Posición que a simple vista se comporta como una posición static, hasta que le asignemos algún movimiento*/
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box-5 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box-6 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+
+/*Ejercicio C*/
+#box-7 {
+	position: relative; /*Posición que a simple vista se comporta como una posición static, hasta que le asignemos algún movimiento*/
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box-8 {
+	position: relative;
+  left: 200px; /*Nuestro bloque se desplaza 200px hacia la izquierda de la pantalla)*/
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box-9 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
+
+/*Ejercicio D */
+#box-10 {
+	position: relative; /*Posición que a simple vista se comporta como una posición static, hasta que le asignemos algún movimiento*/
+	width: 200px;
+	height: 200px;
+	background: #ee3e64;
+}
+
+#box-11 {
+	position: relative;
+  left: 200px; /*Nuestro bloque se desplaza 200px hacia la izquierda de la pantalla respecto al bloque 1(bloque 10)*/
+	width: 200px;
+	height: 200px;
+	background: #44accf;
+}
+
+#box-12 {
+	position: relative;
+	width: 200px;
+	height: 200px;
+	background: #b7d84b;
+}
